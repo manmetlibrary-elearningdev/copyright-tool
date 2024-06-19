@@ -1,0 +1,2563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default_layout="pxabnsnfns00001000011" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4893B8">
+  <layouts>
+    <layout name="npnxnanbsnfns00001000011" font="Lato" controllayout="npnxnanbsnfns00001000011" colorscheme="pxabnsnfns00001000011" string_table="pxabnsnfns00001000011" />
+    <layout name="pxabnsnfns00001000011" font="Lato" controllayout="pxabnsnfns00001000011" colorscheme="pxabnsnfns00001000011" string_table="pxabnsnfns00001000011" />
+    <layout name="npxnabnsnfns00001000011" font="Lato" controllayout="npxnabnsnfns00001000011" colorscheme="pxabnsnfns00001000011" string_table="pxabnsnfns00001000011" />
+    <layout name="npnxnanbnsnfns00001000011" font="Lato" controllayout="npnxnanbnsnfns00001000011" colorscheme="pxabnsnfns00001000011" string_table="pxabnsnfns00001000011" />
+    <layout name="pxabnsnfns00001000010" font="Lato" controllayout="pxabnsnfns00001000010" colorscheme="pxabnsnfns00001000011" string_table="pxabnsnfns00001000011" />
+    <layout name="pxnanbnsnfns00001000011" font="Lato" controllayout="pxnanbnsnfns00001000011" colorscheme="pxabnsnfns00001000011" string_table="pxabnsnfns00001000011" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="false">
+            <options>
+              <option name="title_text" value="Can I use it?" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="true" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="customlink" value="true" group="linkright">
+                <properties>
+                  <property name="title" value="Help" />
+                  <property name="data" value="6QDqMjiOpkm" />
+                  <property name="ignoreSlideLock" value="true" />
+                </properties>
+              </listitem>
+              <listitem name="customlink" value="true" group="linkright">
+                <properties>
+                  <property name="title" value=" - " />
+                  <property name="data" value="6F7aXtH8Bvp" />
+                  <property name="ignoreSlideLock" value="true" />
+                </properties>
+              </listitem>
+              <listitem name="customlink" value="true" group="linkright">
+                <properties>
+                  <property name="title" value="Glossary" />
+                  <property name="data" value="6E4ficaeyHO" />
+                  <property name="ignoreSlideLock" value="true" />
+                </properties>
+              </listitem>
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+          <option name="logoAltText" />
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="false" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+          <option name="search" value="true" />
+          <option name="closed_captions" value="false">
+            <options>
+              <option name="font" value="Lato" />
+            </options>
+          </option>
+          <option name="settings" value="false" />
+          <option name="fullScreenToggle" value="false" />
+          <option name="playbackSpeedControl" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icontext" />
+          <option name="previous" value="icontext" />
+          <option name="submit" value="icontext" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns00001000011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001000011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns00001000011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00001000011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001000010">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="pxnanbnsnfns00001000011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns00001000011">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="focus_rect_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x002060" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="preloader">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8C8C8C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDCDCDC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x316300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x214400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428E00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2E5D00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C7C00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="scene_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="5" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected_hover_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="notes">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="5" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bottom_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8C8C8C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="60" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x457E13" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F8500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="outer_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="5" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_in_tab">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6AA242" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x275000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B8A16" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="80" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="80" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x479901" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x366F00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="generic_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x373737" alpha="77" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="right_shadow">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="1" stop="89" />
+                <color rgb="0x000000" alpha="6" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x254B00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAFDD82" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="brandhighlight">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4893B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="brandhighlight_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4893B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="overlay_message">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="85" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="5" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="control_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="settings">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="35" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x919191" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_thumb_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_on">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4893B8" alpha="30" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_label">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="settings_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428C01" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="volume_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns00001000011">
+      <string id="three_image_progress_audio">progress</string>
+      <string id="three_image_audio">audio</string>
+      <string id="three_image_camera_down">camera moved down</string>
+      <string id="three_image_camera_left">camera moved left</string>
+      <string id="three_image_camera_right">camera moved right</string>
+      <string id="three_image_camera_up">camera moved up</string>
+      <string id="three_image_interaction_free">free exploration mode</string>
+      <string id="three_image_interaction_guided">guided tour mode</string>
+      <string id="three_image_hotspot">hotspot</string>
+      <string id="three_image_instructions">Use the w, a, s, and d keys to move around the 360 degree image. Press the tab key to jump to interactive markers and hotspots.</string>
+      <string id="three_image_interaction">360 degree image interaction</string>
+      <string id="three_image_label">label</string>
+      <string id="three_image_marker">marker</string>
+      <string id="three_image_items">items</string>
+      <string id="three_image_interaction_next">next</string>
+      <string id="three_image_pause_audio">pause audio</string>
+      <string id="three_image_pause_video">pause video</string>
+      <string id="three_image_play_audio">play audio</string>
+      <string id="three_image_play_video">play video</string>
+      <string id="three_image_interaction_prev">previous</string>
+      <string id="three_image_visited">visited</string>
+      <string id="three_image_of">of</string>
+      <string id="three_image_count_of_total">%count% of %total%</string>
+      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
+      <string id="three_image_item">item</string>
+      <string id="three_image_interaction_step">step</string>
+      <string id="three_image_tooltip">tooltip</string>
+      <string id="three_image_total_items">%total% items</string>
+      <string id="three_image_total_item">%total% item</string>
+      <string id="three_image_progress_video">progress</string>
+      <string id="three_image_video">video</string>
+      <string id="three_image_video_volume">video volume</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
+      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="background_audio">Background audio</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="modern_video_settings_close">close video settings</string>
+      <string id="acc_modern_video_fullscreen">full-screen video</string>
+      <string id="modern_video_playback_settings">Video Playback Settings</string>
+      <string id="modern_video_captions_off">Off</string>
+      <string id="modern_video_captions_on">On</string>
+      <string id="modern_video_captions_label">Captions</string>
+      <string id="acc_modern_video_settings">video settings</string>
+      <string id="acc_modern_video_mute">mute video</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="acc_modern_video_pause">pause video</string>
+      <string id="acc_modern_video_pip">picture-in-picture</string>
+      <string id="acc_modern_video_play">play video</string>
+      <string id="modern_video_playback_speed_title">Playback Speed</string>
+      <string id="acc_modern_video_captions">video captions</string>
+      <string id="acc_modern_video_playback_speed">playback speed</string>
+      <string id="acc_modern_video_volume">video volume</string>
+      <string id="acc_active">active</string>
+      <string id="alt_key">Alt</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="playback_speed_title">Playback Speed</string>
+      <string id="playback_speed_normal">Normal</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="enter_key">Enter</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="progress_hour">hour</string>
+      <string id="progress_hours">hours</string>
+      <string id="action">Action</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="mute_shortcut">Mute / unmute</string>
+      <string id="next_shortcut">Next</string>
+      <string id="playpause_shortcut">Play / pause</string>
+      <string id="previous_shortcut">Previous</string>
+      <string id="replay_shortcut">Replay</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="submit_shortcut">Submit</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="background_audio_shortcut">Toggle background audio</string>
+      <string id="closedcaptions_shortcut">Toggle captions</string>
+      <string id="fullscreen_shortcut">Toggle full-screen</string>
+      <string id="togglezoom">Toggle zoom to fit</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="progress_minute">minute</string>
+      <string id="progress_minutes">minutes</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">Next (Ctrl+Alt+Period)</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">Previous (Ctrl+Alt+Comma)</string>
+      <string id="question_list">Question List</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="acc_locked">locked</string>
+      <string id="acc_search_input">search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="acc_slide_progress">slide progress</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="acc_visited">visited</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="progress_second">second</string>
+      <string id="progress_seconds">seconds</string>
+      <string id="shift_key">Shift</string>
+      <string id="acc_skipnavigation">Back to top</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="spacebar_key">Space</string>
+      <string id="streaming_video_local_playback_learn_more">Learn More</string>
+      <string id="streaming_video_local_playback_republish">To watch this video, use the preview feature in Storyline 360, upload your published output to a server, publish to Review 360, or switch to static video quality.</string>
+      <string id="streaming_video_local_playback_title">Streaming video is unavailable for local playback.</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_cc_hide">Hide captions (Ctrl+Alt+C)</string>
+      <string id="acc_cc_show">Show captions (Ctrl+Alt+C)</string>
+      <string id="acc_enter_fullscreen">Enter full-screen (Ctrl+Alt+F)</string>
+      <string id="acc_exit_fullscreen">Exit full-screen (Ctrl+Alt+F)</string>
+      <string id="acc_mute">Mute (Ctrl+Alt+M)</string>
+      <string id="acc_next_visual">Next (Ctrl+Alt+.)</string>
+      <string id="acc_pause">Pause (Ctrl+Alt+P)</string>
+      <string id="acc_play">Play (Ctrl+Alt+P)</string>
+      <string id="acc_playback_speed">Playback speed</string>
+      <string id="acc_previous_visual">Previous (Ctrl+Alt+,)</string>
+      <string id="acc_replay">Replay (Ctrl+Alt+R)</string>
+      <string id="search_toggle">Search</string>
+      <string id="acc_settings">Settings</string>
+      <string id="acc_submit">Submit (Ctrl+Alt+S)</string>
+      <string id="acc_unmute">Unmute (Ctrl+Alt+M)</string>
+      <string id="transcript_auto_scroll">Autoscroll</string>
+      <string id="acc_window_close">Close</string>
+      <string id="acc_video_transcript_list">Transcipt</string>
+      <string id="acc_window_move">Move window</string>
+      <string id="acc_modern_video_transcript">Open</string>
+      <string id="acc_window_resize">Resize window</string>
+      <string id="video_transcript_resume_autoscroll">Resume autoscroll</string>
+      <string id="video_transcript_select_track">Select track</string>
+      <string id="transcript_show_timestamp">Show timestamps</string>
+      <string id="video_transcript_title">Transcripts</string>
+      <string id="acc_window_options">Options</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Lato">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6C4HIpncSx0" displaytext="Can I use it?" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6C4HIpncSx0.6RESHO88gDi" displaytext="Can I use it?" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6nPTzdrrGSu" displaytext="Public domain and CC" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6nPTzdrrGSu.5cGQ6n6NzOI" displaytext="Public domain" expand="false" type="slide" />
+            <slidelink slideid="_player.6nPTzdrrGSu.63Y8W1G7WYP" displaytext="Open Access or CC" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6K8NolaXF9v" displaytext="Type of resource" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6K8NolaXF9v.60Gx2Zlqq5G" displaytext="Types of resources" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6JrtAFTnIhs" displaytext="Text" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6JrtAFTnIhs.5jV1aQNmCuh" displaytext="Text" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6POIZp8w5ua" displaytext="Book" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6POIZp8w5ua.6FtdyrhMixt" displaytext="Printed book" expand="false" type="slide" />
+            <slidelink slideid="_player.6POIZp8w5ua.61acAX9vuz3" displaytext="Print book chapter" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.63Kb9eoYqsC" displaytext="ebook" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.63Kb9eoYqsC.6jIFilNvu9w" displaytext="ebook" expand="false" type="slide" />
+            <slidelink slideid="_player.63Kb9eoYqsC.5WRRMStCcyD" displaytext="ebook chapter" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6ini7YDsK5Y" displaytext="Journal" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6ini7YDsK5Y.6lfNY94I4b8" displaytext="Journal article" expand="false" type="slide" />
+            <slidelink slideid="_player.6ini7YDsK5Y.68laInBsLgn" displaytext="Print journal article" expand="false" type="slide" />
+            <slidelink slideid="_player.6ini7YDsK5Y.5k7ocafrc9T" displaytext="e-journal article" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6MHSzvTylJh" displaytext="Music score" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6MHSzvTylJh.6fba2gW4pgr" displaytext="Music" expand="false" type="slide" />
+            <slidelink slideid="_player.6MHSzvTylJh.5XLyOUsaYwe" displaytext="Music extract" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5z8O8WR9VIn" displaytext="Quote" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5z8O8WR9VIn.64Udv9Reiyg" displaytext="Quote" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.68cH7Ui3STk" displaytext="Extract" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.68cH7Ui3STk.6YT22KWDkPy" displaytext="Extract" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5hMv0lMb9w6" displaytext="Images" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5hMv0lMb9w6.6Soiep7XPnm" displaytext="Image" expand="false" type="slide" />
+            <slidelink slideid="_player.5hMv0lMb9w6.6WmnHW3Nr5N" displaytext="From internet" expand="false" type="slide" />
+            <slidelink slideid="_player.5hMv0lMb9w6.5zkl3mSPNEd" displaytext="From book/journal" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6fSDxHnTXhs" displaytext="Broadcast" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6fSDxHnTXhs.6ktN8MySsHB" displaytext="Broadcast" expand="false" type="slide" />
+            <slidelink slideid="_player.6fSDxHnTXhs.6OBdVzqr9vg" displaytext="Entire" expand="false" type="slide" />
+            <slidelink slideid="_player.6fSDxHnTXhs.6oDj8W5KeGo" displaytext="Extract" expand="false" type="slide" />
+            <slidelink slideid="_player.6fSDxHnTXhs.5a8DN3RggN2" displaytext="BoB" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.68bo0efzCxJ" displaytext="Film or video" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.68bo0efzCxJ.6CUNg9wQImp" displaytext="Film or video" expand="false" type="slide" />
+            <slidelink slideid="_player.68bo0efzCxJ.6Z2J4oEtQRt" displaytext="YouTube" expand="false" type="slide" />
+            <slidelink slideid="_player.68bo0efzCxJ.6jJ2Pidgef7" displaytext="Extract" expand="false" type="slide" />
+            <slidelink slideid="_player.68bo0efzCxJ.6l0kiKbDzgx" displaytext="Entire" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5goDKmWs77G" displaytext="Music or sound" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5goDKmWs77G.6jsu4SSVeIY" displaytext="Music or sound" expand="false" type="slide" />
+            <slidelink slideid="_player.5goDKmWs77G.5VU8Pd85Dke" displaytext="Commercial" expand="false" type="slide" />
+            <slidelink slideid="_player.5goDKmWs77G.5vWWDojxYH3" displaytext="Extract" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6Qrcd2j3gXZ" displaytext="Help" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6Qrcd2j3gXZ.6E1fObKs3JD" displaytext="Help" expand="false" type="slide" />
+            <slidelink slideid="_player.6Qrcd2j3gXZ.5ZO5iQrPQ6w" displaytext="Glossary" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="6C4HIpncSx0.6RESHO88gDi" slidebank="false" type="slide">disclaimer this resource was created by the university of manchester library’s copyright guidance service and adapted by manchester metropolitan university library under a cc-by-nc licence.  the information provided within this resource is intended as general guidance only, and an interpretation of current copyright issues and practice at the manchester metropolitan university.  whilst every effort is made to ensure that this resource is up-to-date and accurate, mmu does not warrant, nor does it accept any responsibility or liability for, the accuracy or completeness of the content or for any loss which may arise from reliance on information contained in it. it is not a definite guide and should not be construed as legal advice. this resource is available for reuse under a cc-by-nc licence. for full licence terms, visit the creative commons website. contact manmet library’s copyright team for more information - email library@mmu.ac.uk. close [x] can i use it? this interactive resource will help you to work out whether you can use specific types of learning material in your teaching, and how you can use them without breaching copyright. there are many grey areas in copyright law, and the answers we provide here may not always be definitive. if you are in any doubt, please contact us for advice by emailing library@mmu.ac.uk. view disclaimer. start start start start start start</slidetext>
+      <slidetext slideid="6nPTzdrrGSu.5cGQ6n6NzOI" slidebank="false" type="slide"> no no no no no no is it in the public domain? yes yes yes yes yes yes public domain works are those whose intellectual property rights have expired, been forfeited, or are otherwise inapplicable.  for example, creative work where the author died more than 70 years ago. when trying to determine whether something is in the public domain or not, consider the following:  the rules of your own country apply (ie. uk copyright law) a reproduction of a work has a new copyright life (eg. a digital image of an old photograph) any adaptation of a work is a new copyright work. copyright work. free to use!  public domain works are no longer subject to copyright restrictions, so you are free to use the material however you like.  x public domain works are those whose intellectual property rights have expired, been forfeited, or are otherwise inapplicable.  for example, creative work where the author died more than 70 years ago. when trying to determine whether something is in the public domain or not, consider the following:  the rules of your own country apply (ie. uk copyright law) a reproduction of a work has a new copyright life (eg. a digital image of an old photograph) any adaptation of a work is a new copyright work.</slidetext>
+      <slidetext slideid="6nPTzdrrGSu.63Y8W1G7WYP" slidebank="false" type="slide"> no no no no no no is it open access or creative commons licensed? yes yes yes yes yes yes  there are a number of different creative commons (cc) licences, which allow various levels of permission. the basic, most open licence is cc-0 which allows anyone to reuse and adapt materials for any purpose, with no need to attribute the original author.  a number of letter designations can be added to impose further restrictions, such as nc (non-commercial) and nd (no derivatives). these can be combined to meet specific requirements. you are free to use cc licensed material as long as you adhere to the terms of the type of licence that the material has been released under.  you can use the creative commons search page to find cc licensed content.  free to use!  creative commons materials have been specifically licensed to enable people to reuse them.  you are free to use these materials, as long as you adhere to the terms of the licence that the material has been released under.  x  there are a number of different creative commons (cc) licences, which allow various levels of permission. the basic, most open licence is cc-0 which allows anyone to reuse and adapt materials for any purpose, with no need to attribute the original author.  a number of letter designations can be added to impose further restrictions, such as nc (non-commercial) and nd (no derivatives). these can be combined to meet specific requirements. you are free to use cc licensed material as long as you adhere to the terms of the type of licence that the material has been released under.  you can use the creative commons search page to find cc licensed content. </slidetext>
+      <slidetext slideid="6K8NolaXF9v.60Gx2Zlqq5G" slidebank="false" type="slide">image/s image/s image/s image/s image/s image/s music or sound music or sound music or sound music or sound music or sound music or sound broadcast broadcast broadcast broadcast broadcast broadcast film or video film or video film or video film or video film or video film or video what type of material is it? text text text text text text </slidetext>
+      <slidetext slideid="6JrtAFTnIhs.5jV1aQNmCuh" slidebank="false" type="slide"> printed book printed book printed book printed book printed book printed book e-book e-book e-book e-book e-book e-book journal article journal article journal article journal article journal article journal article music music music music music music a short quotation a short quotation a short quotation a short quotation a short quotation a short quotation an extract (less than 400 words)  an extract (less than 400 words)  an extract (less than 400 words)  an extract (less than 400 words)  an extract (less than 400 words)  an extract (less than 400 words)  what text do you want to copy? </slidetext>
+      <slidetext slideid="6POIZp8w5ua.6FtdyrhMixt" slidebank="false" type="slide">you can’t use this. entire books are not covered by any licences or copyright exceptions.  this means they can’t be digitised, copied or shared unless they are in the public domain (out of copyright).   x  photocopy / scan of an entire printed book photocopy / scan of an entire printed book photocopy / scan of an entire printed book photocopy / scan of an entire printed book photocopy / scan of an entire printed book photocopy / scan of an entire printed book photocopy / scan of a chapter of a book photocopy / scan of a chapter of a book photocopy / scan of a chapter of a book photocopy / scan of a chapter of a book photocopy / scan of a chapter of a book photocopy / scan of a chapter of a book what do you want to copy?</slidetext>
+      <slidetext slideid="6POIZp8w5ua.61acAX9vuz3" slidebank="false" type="slide">you can’t use this. this isn’t permitted under any copyright exceptions, and it would be high risk.  you need to obtain the permission of the rights holder.   x x x x fair dealing in certain circumstances, some works may be copied under a copyright exception where it’s considered to be “fair dealing”. fair dealing is not defined in law, and the fairness of a particular use will be judged according to its own circumstances. however, there are a few factors to consider when assessing the fairness, including:  the amount copied – avoid copying excessive amounts of a work, and be aware that in some cases the type of work may be a factor. the purpose of copying – if the purpose is for teaching a limited number of students, this may be considered fair. the damage that copying may do to the market for, or sales of, the work – where the economic impact is not significant, the use may count as fair dealing.  close [x] close [x] close [x] close [x] free to use!  you can use this under the terms of our cla licence or a “fair dealing” copyright exception.  contact the digitisation team x x x x cla licence our copyright licensing agency (cla) licence covers the photocopying and scanning of most uk publications and some us and international publishers.  it allows: multiple photocopies of limited extracts from copyright protected printed books, journals and magazines digital copies of limited extracts from copyright protected printed books, journals and magazines details of excluded uk and us publishers, and included overseas countries, can be found on the cla’s website.   close [x] close [x] close [x] close [x] free to use! under the research and private study exception, researchers and students are allowed to copy limited extracts of works for non-commercial research and private study. this includes text, images, sound and video recordings. the amount is limited by fair dealing and must be sufficiently acknowledged/attributed.  x x x x free to use!  you can use this under the terms of our cla licence.  send a request to the digitisation team  x x x x  embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle distribute it as a handout distribute it as a handout distribute it as a handout distribute it as a handout distribute it as a handout distribute it as a handout share it in an email share it in an email share it in an email share it in an email share it in an email share it in an email use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service what do you want to do with it?</slidetext>
+      <slidetext slideid="63Kb9eoYqsC.6jIFilNvu9w" slidebank="false" type="slide">you can’t use this.  entire e-books are not covered by any licences or copyright exceptions.  this means that e-books can’t be copied unless they are in the public domain, but you can link to them instead.   x  an entire e-book an entire e-book an entire e-book an entire e-book an entire e-book an entire e-book a chapter of an e-book a chapter of an e-book a chapter of an e-book a chapter of an e-book a chapter of an e-book a chapter of an e-book what do you want to copy?</slidetext>
+      <slidetext slideid="63Kb9eoYqsC.5WRRMStCcyD" slidebank="false" type="slide">you can’t use this  this isn’t permitted under any copyright exceptions, but you can link to it instead.   x x x x fair dealing in certain circumstances, some works may be copied under a copyright exception where it’s considered to be “fair dealing”. fair dealing is not defined in law, and the fairness of a particular use will be judged according to its own circumstances. however, there are a few factors to consider when assessing the fairness, including:  the amount copied – avoid copying excessive amounts of a work, and be aware that in some cases the type of work may be a factor. the purpose of copying – if the purpose is for teaching a limited number of students, this may be considered fair. the damage that copying may do to the market for, or sales of, the work – where the economic impact is not significant, the use may count as fair dealing.  close [x] close [x] close [x] close [x] free to use!  you can use this under the terms of our cla licence or a “fair dealing” copyright exception.  contact the digitisation team x x x x cla licence our copyright licensing agency (cla) licence covers the photocopying and scanning of most uk publications and some us and international publishers.  it allows: multiple photocopies of limited extracts from copyright protected printed books, journals and magazines digital copies of limited extracts from copyright protected printed books, journals and magazines details of excluded uk and us publishers, and included overseas countries, can be found on the cla’s website.   close [x] close [x] close [x] close [x] you can’t use this. this isn’t permitted under any copyright exceptions, but you can link to it instead.   x x x x free to use!  you can use this under the terms of our cla licence.  send a request to the digitisation team  x x x x  embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle distribute it as a handout distribute it as a handout distribute it as a handout distribute it as a handout distribute it as a handout distribute it as a handout share it in an email share it in an email share it in an email share it in an email share it in an email share it in an email use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service what do you want to do with it? </slidetext>
+      <slidetext slideid="6ini7YDsK5Y.6lfNY94I4b8" slidebank="false" type="slide"> an entire e-journal article an entire e-journal article an entire e-journal article an entire e-journal article an entire e-journal article an entire e-journal article an entire printed journal article an entire printed journal article an entire printed journal article an entire printed journal article an entire printed journal article an entire printed journal article what kind of article do you want to copy?  image by crimson interactive inc. (2024) </slidetext>
+      <slidetext slideid="6ini7YDsK5Y.68laInBsLgn" slidebank="false" type="slide">research and private study researchers and students are allowed to copy limited extracts of works for non-commercial research and private study. this includes text, images, sound and video recordings.  the amount is limited by fair dealing and must be sufficiently acknowledged / attributed.  x x x x you can’t use this. this isn’t permitted under any copyright exceptions, and it would be high risk.  you need to obtain the permission of the rights holder.  x x x x fair dealing in certain circumstances, some works may be copied under a copyright exception where it’s considered to be “fair dealing”. fair dealing is not defined in law, and the fairness of a particular use will be judged according to its own circumstances. however, there are a few factors to consider when assessing the fairness, including:  the amount copied – avoid copying excessive amounts of a work, and be aware that in some cases the type of work may be a factor. the purpose of copying – if the purpose is for teaching a limited number of students, this may be considered fair. the damage that copying may do to the market for, or sales of, the work – where the economic impact is not significant, the use may count as fair dealing.  close [x] close [x] close [x] close [x] free to use!  you can use this under the terms of our cla licence.  send a request to the digitisation team  x x x x cla licence our copyright licensing agency (cla) licence covers the photocopying and scanning of most uk publications and some us and international publishers.  it allows: multiple photocopies of limited extracts from copyright protected printed books, journals and magazines digital copies of limited extracts from copyright protected printed books, journals and magazines details of excluded uk and us publishers, and included overseas countries, can be found on the cla’s website.   close [x] close [x] close [x] close [x] free to use!  you can send a single copy for yourself, a student, or a fellow researcher under the “research and private study” exception.   x free to use!  you can use this under the terms of our cla licence.  send a request to the digitisation team  x  embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle distribute it as a handout distribute it as a handout distribute it as a handout distribute it as a handout distribute it as a handout distribute it as a handout share it in an email share it in an email share it in an email share it in an email share it in an email share it in an email use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service what do you want to do with it?  image by crimson interactive inc. (2024) </slidetext>
+      <slidetext slideid="6ini7YDsK5Y.5k7ocafrc9T" slidebank="false" type="slide">you can’t use this. this isn’t permitted under any copyright exceptions, and it would be high risk.  you need to obtain the permission of the rights holder.  x x x x fair dealing in certain circumstances, some works may be copied under a copyright exception where it’s considered to be “fair dealing”. fair dealing is not defined in law, and the fairness of a particular use will be judged according to its own circumstances. however, there are a few factors to consider when assessing the fairness, including:  the amount copied – avoid copying excessive amounts of a work, and be aware that in some cases the type of work may be a factor. the purpose of copying – if the purpose is for teaching a limited number of students, this may be considered fair. the damage that copying may do to the market for, or sales of, the work – where the economic impact is not significant, the use may count as fair dealing.  close [x] close [x] close [x] close [x] free to use!  you can use this under the terms of our cla licence.  send a request to the digitisation team  x x x x cla licence our copyright licensing agency (cla) licence covers the photocopying and scanning of most uk publications and some us and international publishers.  it allows: multiple photocopies of limited extracts from copyright protected printed books, journals and magazines digital copies of limited extracts from copyright protected printed books, journals and magazines details of excluded uk and us publishers, and included overseas countries, can be found on the cla’s website.   close [x] close [x] close [x] close [x] you can’t use this. this isn’t permitted under any copyright exceptions, but you can link to it instead.   x x x x free to use!  you can use this under the terms of our cla licence.  send a request to the digitisation team  x  embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle distribute it as a handout distribute it as a handout distribute it as a handout distribute it as a handout distribute it as a handout distribute it as a handout share it in an email share it in an email share it in an email share it in an email share it in an email share it in an email use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service what do you want to do with it?  image by crimson interactive inc. (2024) </slidetext>
+      <slidetext slideid="6MHSzvTylJh.6fba2gW4pgr" slidebank="false" type="slide">you can’t use this. music scores (including the words) are not covered by any licences.  this means that entire music scores can’t be digitised, copied or shared unless they are in the public domain.   x  an entire music score an entire music score an entire music score an entire music score an entire music score an entire music score an extract from a music score an extract from a music score an extract from a music score an extract from a music score an extract from a music score an extract from a music score what do you want to copy? </slidetext>
+      <slidetext slideid="6MHSzvTylJh.5XLyOUsaYwe" slidebank="false" type="slide">you can’t use this. this isn’t permitted under any copyright exceptions, and it would be high risk.  you need to obtain the permission of the rights holder.  x x x x fair dealing in certain circumstances, some works may be copied under a copyright exception where it’s considered to be “fair dealing”. fair dealing is not defined in law, and the fairness of a particular use will be judged according to its own circumstances. however, there are a few factors to consider when assessing the fairness, including:  the amount copied – avoid copying excessive amounts of a work, and be aware that in some cases the type of work may be a factor. the purpose of copying – if the purpose is for teaching a limited number of students, this may be considered fair. the damage that copying may do to the market for, or sales of, the work – where the economic impact is not significant, the use may count as fair dealing.  close [x] close [x] close [x] close [x] cla licence our copyright licensing agency (cla) licence covers the photocopying and scanning of most uk publications and some us and international publishers.  it allows: multiple photocopies of limited extracts from copyright protected printed books, journals and magazines digital copies of limited extracts from copyright protected printed books, journals and magazines details of excluded uk and us publishers, and included overseas countries, can be found on the cla’s website.   close [x] close [x] close [x] close [x] free to use!  you can use this under the “fair dealing” copyright exception.   x x x x  embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle distribute it as a handout distribute it as a handout distribute it as a handout distribute it as a handout distribute it as a handout distribute it as a handout share it in an email share it in an email share it in an email share it in an email share it in an email share it in an email use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service what do you want to do with it? </slidetext>
+      <slidetext slideid="5z8O8WR9VIn.64Udv9Reiyg" slidebank="false" type="slide">contact us  you may be able to use this under a “fair dealing” copyright exception.  contact the library for advice – email library@mmu.ac.uk x fair dealing in certain circumstances, some works may be copied under a copyright exception where it’s considered to be “fair dealing”. fair dealing is not defined in law, and the fairness of a particular use will be judged according to its own circumstances. however, there are a few factors to consider when assessing the fairness, including:  the amount copied – avoid copying excessive amounts of a work, and be aware that in some cases the type of work may be a factor. the purpose of copying – if the purpose is for teaching a limited number of students, this may be considered fair. the damage that copying may do to the market for, or sales of, the work – where the economic impact is not significant, the use may count as fair dealing.  close [x] close [x] close [x] close [x] cla licence our copyright licensing agency (cla) licence covers the photocopying and scanning of most uk publications and some us and international publishers.  it allows: multiple photocopies of limited extracts from copyright protected printed books, journals and magazines digital copies of limited extracts from copyright protected printed books, journals and magazines details of excluded uk and us publishers, and included overseas countries, can be found on the cla’s website.   close [x] close [x] close [x] close [x] free to use!  you can use this under the terms of our cla licence or a “fair dealing” copyright exception. send a request to the digitisation team x  embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle distribute it as a handout distribute it as a handout distribute it as a handout distribute it as a handout distribute it as a handout distribute it as a handout share it in an email share it in an email share it in an email share it in an email share it in an email share it in an email use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture that is being recorded  use it in a presentation or lecture that is being recorded  use it in a presentation or lecture that is being recorded  use it in a presentation or lecture that is being recorded  use it in a presentation or lecture that is being recorded  use it in a presentation or lecture that is being recorded  what do you want to do with it? </slidetext>
+      <slidetext slideid="68cH7Ui3STk.6YT22KWDkPy" slidebank="false" type="slide">free to use!  you can use this under the terms of our cla licence. send a request to the digitisation team  x contact us  you may be able to use this under a “fair dealing” copyright exception.  contact the library for advice – email library@mmu.ac.uk x fair dealing in certain circumstances, some works may be copied under a copyright exception where it’s considered to be “fair dealing”. fair dealing is not defined in law, and the fairness of a particular use will be judged according to its own circumstances. however, there are a few factors to consider when assessing the fairness, including:  the amount copied – avoid copying excessive amounts of a work, and be aware that in some cases the type of work may be a factor. the purpose of copying – if the purpose is for teaching a limited number of students, this may be considered fair. the damage that copying may do to the market for, or sales of, the work – where the economic impact is not significant, the use may count as fair dealing.  close [x] close [x] close [x] close [x] cla licence our copyright licensing agency (cla) licence covers the photocopying and scanning of most uk publications and some us and international publishers.  it allows: multiple photocopies of limited extracts from copyright protected printed books, journals and magazines digital copies of limited extracts from copyright protected printed books, journals and magazines details of excluded uk and us publishers, and included overseas countries, can be found on the cla’s website.   close [x] close [x] close [x] close [x] free to use!  you can use this under the terms of our cla licence or a “fair dealing” copyright exception. send a request to the digitisation team x  embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle distribute it as a handout distribute it as a handout distribute it as a handout distribute it as a handout distribute it as a handout distribute it as a handout share it in an email share it in an email share it in an email share it in an email share it in an email share it in an email use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture that is being recorded  use it in a presentation or lecture that is being recorded  use it in a presentation or lecture that is being recorded  use it in a presentation or lecture that is being recorded  use it in a presentation or lecture that is being recorded  use it in a presentation or lecture that is being recorded  what do you want to do with it? </slidetext>
+      <slidetext slideid="5hMv0lMb9w6.6Soiep7XPnm" slidebank="false" type="slide"> an image from the internet an image from the internet an image from the internet an image from the internet an image from the internet an image from the internet an image from a journal or book an image from a journal or book an image from a journal or book an image from a journal or book an image from a journal or book an image from a journal or book what kind of image do you want to copy?</slidetext>
+      <slidetext slideid="5hMv0lMb9w6.6WmnHW3Nr5N" slidebank="false" type="slide">research and private study researchers and students are allowed to copy limited extracts of works for non-commercial research and private study.  this includes text, images, sound and video recordings. the amount is limited by fair dealing and must be sufficiently acknowledged/attributed.   close [x] close [x] close [x] close [x] free to use!  you can use this under the “fair dealing” copyright exception.  x x x x you can’t use this. this isn’t permitted under any copyright exceptions, and it would be high risk.  you need to obtain the permission of the rights holder.  x x x x fair dealing in certain circumstances, some works may be copied under a copyright exception where it’s considered to be “fair dealing”. fair dealing is not defined in law, and the fairness of a particular use will be judged according to its own circumstances. however, there are a few factors to consider when assessing the fairness, including:  the amount copied – avoid copying excessive amounts of a work, and be aware that in some cases the type of work may be a factor. the purpose of copying – if the purpose is for teaching a limited number of students, this may be considered fair. the damage that copying may do to the market for, or sales of, the work – where the economic impact is not significant, the use may count as fair dealing.  close [x] close [x] close [x] close [x]  contact us: you may be able to use this under a “fair dealing” copyright exception.  contact the library for advice. email library@mmu.ac.uk. x x x x  cla licence our copyright licensing agency (cla) licence covers the photocopying and scanning of most uk publications and some us and international publishers.  it allows: multiple photocopies of limited extracts from copyright protected printed books, journals and magazines digital copies of limited extracts from copyright protected printed books, journals and magazines details of excluded uk and us publishers, and included overseas countries, can be found on the cla’s website.   close  [x] close  [x] close  [x] close  [x] free to use!  you can send a single copy for yourself, a student, or a fellow researcher under the “research and private study” exception.  x x x x contact us: you may be able to use this under a “fair dealing” copyright exception.  contact the library for advice. email library@mmu.ac.uk.  embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle distribute it as a handout distribute it as a handout distribute it as a handout distribute it as a handout distribute it as a handout distribute it as a handout share it in an email share it in an email share it in an email share it in an email share it in an email share it in an email use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded what do you want to do with it? </slidetext>
+      <slidetext slideid="5hMv0lMb9w6.5zkl3mSPNEd" slidebank="false" type="slide">you can’t use this. this isn’t permitted under any copyright exceptions, and it would be high risk.  you need to obtain the permission of the rights holder.  x x x x fair dealing in certain circumstances, some works may be copied under a copyright exception where it’s considered to be “fair dealing”. fair dealing is not defined in law, and the fairness of a particular use will be judged according to its own circumstances. however, there are a few factors to consider when assessing the fairness, including:  the amount copied – avoid copying excessive amounts of a work, and be aware that in some cases the type of work may be a factor. the purpose of copying – if the purpose is for teaching a limited number of students, this may be considered fair. the damage that copying may do to the market for, or sales of, the work – where the economic impact is not significant, the use may count as fair dealing.  close [x] close [x] close [x] close [x] contact us you may be able to use this under a “fair dealing” copyright exception.  contact the library for advice. email library@mmu.ac.uk.  x x x x cla licence our copyright licensing agency (cla) licence covers the photocopying and scanning of most uk publications and some us and international publishers.  it allows: multiple photocopies of limited extracts from copyright protected printed books, journals and magazines digital copies of limited extracts from copyright protected printed books, journals and magazines details of excluded uk and us publishers, and included overseas countries, can be found on the cla’s website.   close [x] close [x] close [x] close [x] free to use! you can use this under the terms of our cla licence or a “fair dealing” copyright exception. contact the digitisation team x x x x  embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle distribute it as a handout distribute it as a handout distribute it as a handout distribute it as a handout distribute it as a handout distribute it as a handout share it in an email share it in an email share it in an email share it in an email share it in an email share it in an email use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded what do you want to do with it? </slidetext>
+      <slidetext slideid="6fSDxHnTXhs.6ktN8MySsHB" slidebank="false" type="slide"> an entire tv or radio broadcast an entire tv or radio broadcast an entire tv or radio broadcast an entire tv or radio broadcast an entire tv or radio broadcast an entire tv or radio broadcast an extract from a tv or radio broadcast an extract from a tv or radio broadcast an extract from a tv or radio broadcast an extract from a tv or radio broadcast an extract from a tv or radio broadcast an extract from a tv or radio broadcast a programme from box of broadcasts  a programme from box of broadcasts  a programme from box of broadcasts  a programme from box of broadcasts  a programme from box of broadcasts  a programme from box of broadcasts  what do you want to use? </slidetext>
+      <slidetext slideid="6fSDxHnTXhs.6OBdVzqr9vg" slidebank="false" type="slide">era (educational recording agency) licence the era provides licensing schemes to member he institutions to cover the use of recorded broadcast media in teaching and learning. the era licence grants the right to copy, access and use, for non-commercial educational purposes, broadcast output of era’s members in the form of era recordings.  mmu currently has an era licence. this also allows licensed era recordings to be accessed by students and teachers online from outside the premises of their establishment.  close [x] close [x] close [x] close [x] you can’t use this  this isn’t permitted under any copyright exceptions, and it would be high risk. you need to obtain the permission of the rights holder.  x x x x contact us  you may be able to use this under the terms of our era licence.  contact the library for advice. email library@mmu.ac.uk. x x x x  embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded what do you want to do with it?</slidetext>
+      <slidetext slideid="6fSDxHnTXhs.6oDj8W5KeGo" slidebank="false" type="slide">contact us  you may be able to use this under a “fair dealing” copyright exception.  contact the library for advice – email library@mmu.ac.uk x x x x fair dealing in certain circumstances, some works may be copied under a copyright exception where it’s considered to be “fair dealing”. fair dealing is not defined in law, and the fairness of a particular use will be judged according to its own circumstances. however, there are a few factors to consider when assessing the fairness, including:  the amount copied – avoid copying excessive amounts of a work, and be aware that in some cases the type of work may be a factor. the purpose of copying – if the purpose is for teaching a limited number of students, this may be considered fair. the damage that copying may do to the market for, or sales of, the work – where the economic impact is not significant, the use may count as fair dealing.  close [x] close [x] close [x] close [x] era (educational recording agency) licence the era provides licensing schemes to member he institutions to cover the use of recorded broadcast media in teaching and learning. the era licence grants the right to copy, access and use, for non-commercial educational purposes, broadcast output of era’s members in the form of era recordings.  mmu currently has an era licence. this also allows licensed era recordings to be accessed by students and teachers online from outside the premises of their establishment.  close [x] close [x] close [x] close [x] you can’t use this  this isn’t permitted under any copyright exceptions, and it would be high risk.  you need to obtain the permission of the rights holder.  x x x x free to use!  you can use this under the terms of our era licence or a “fair dealing” copyright exception.  x x x x  embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded what do you want to do with it? </slidetext>
+      <slidetext slideid="6fSDxHnTXhs.5a8DN3RggN2" slidebank="false" type="slide">era (educational recording agency) licence the era provides licensing schemes to member he institutions to cover the use of recorded broadcast media in teaching and learning. the era licence grants the right to copy, access and use, for non-commercial educational purposes, broadcast output of era’s members in the form of era recordings.  mmu currently has an era licence. this also allows licensed era recordings to be accessed by students and teachers online from outside the premises of their establishment.  close [x] close [x] close [x] close [x] you can’t use this  this isn’t permitted under any copyright exceptions, and it would be high risk.  you need to obtain the permission of the rights holder.  x x x x free to use!  you can use this under the terms of our era licence.  x x x x  embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded what do you want to do with it?</slidetext>
+      <slidetext slideid="68bo0efzCxJ.6CUNg9wQImp" slidebank="false" type="slide"> an extract from a film (dvd or digital file)  an extract from a film (dvd or digital file)  an extract from a film (dvd or digital file)  an extract from a film (dvd or digital file)  an extract from a film (dvd or digital file)  an extract from a film (dvd or digital file)  a youtube or vimeo video a youtube or vimeo video a youtube or vimeo video a youtube or vimeo video a youtube or vimeo video a youtube or vimeo video an entire film (dvd or digital file) an entire film (dvd or digital file) an entire film (dvd or digital file) an entire film (dvd or digital file) an entire film (dvd or digital file) an entire film (dvd or digital file) what do you want to copy?</slidetext>
+      <slidetext slideid="68bo0efzCxJ.6Z2J4oEtQRt" slidebank="false" type="slide">free to use!  free but such videos should only be used if you’re sure that they’ve been legitimately uploaded by the copyright owner. using illegally uploaded videos could result in a ‘secondary infringement’ or more likely the material could be taken down by youtube / vimeo at any moment. if you’re unsure what to do, please contact us for further guidance. email library@mmu.ac.uk. x x x x  embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded share it in an email share it in an email share it in an email share it in an email share it in an email share it in an email what do you want to do with it? </slidetext>
+      <slidetext slideid="68bo0efzCxJ.6jJ2Pidgef7" slidebank="false" type="slide">you can’t use this. this isn’t permitted under any copyright exceptions, and it would be high risk.  you need to obtain the permission of the rights holder.  x x x x you can’t use this. this isn’t permitted under any copyright exceptions, but it would be low risk.   x x x x contact us you may be able to use this under a “fair dealing” copyright exception.  contact the library for advice. email library@mmu.ac.uk. x x x x fair dealing in certain circumstances, some works may be copied under a copyright exception where it’s considered to be “fair dealing”. fair dealing is not defined in law, and the fairness of a particular use will be judged according to its own circumstances. however, there are a few factors to consider when assessing the fairness, including:  the amount copied – avoid copying excessive amounts of a work, and be aware that in some cases the type of work may be a factor. the purpose of copying – if the purpose is for teaching a limited number of students, this may be considered fair. the damage that copying may do to the market for, or sales of, the work – where the economic impact is not significant, the use may count as fair dealing.  close [x] close [x] close [x] close [x] free to use!  you can use this under the “fair dealing” copyright exception.  x x x x  embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded share it in an email share it in an email share it in an email share it in an email share it in an email share it in an email what do you want to do with it?</slidetext>
+      <slidetext slideid="68bo0efzCxJ.6l0kiKbDzgx" slidebank="false" type="slide">fair dealing in certain circumstances, some works may be copied under a copyright exception where it’s considered to be “fair dealing”. fair dealing is not defined in law, and the fairness of a particular use will be judged according to its own circumstances. however, there are a few factors to consider when assessing the fairness, including:  the amount copied – avoid copying excessive amounts of a work, and be aware that in some cases the type of work may be a factor. the purpose of copying – if the purpose is for teaching a limited number of students, this may be considered fair. the damage that copying may do to the market for, or sales of, the work – where the economic impact is not significant, the use may count as fair dealing.  close [x] close [x] close [x] close [x] contact us you may be able to use this under a “fair dealing” copyright exception.  contact the library for advice. email library@mmu.ac.uk. x x x x you can’t use this. this isn’t permitted under any copyright exceptions, and it would be high risk.  you need to obtain the permission of the rights holder.  x x x x  embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded share it in an email share it in an email share it in an email share it in an email share it in an email share it in an email what do you want to do with it? </slidetext>
+      <slidetext slideid="5goDKmWs77G.6jsu4SSVeIY" slidebank="false" type="slide"> a commercial sound recording  a commercial sound recording  a commercial sound recording  a commercial sound recording  a commercial sound recording  a commercial sound recording  an extract from a commercial piece of music an extract from a commercial piece of music an extract from a commercial piece of music an extract from a commercial piece of music an extract from a commercial piece of music an extract from a commercial piece of music what do you want to copy? </slidetext>
+      <slidetext slideid="5goDKmWs77G.5VU8Pd85Dke" slidebank="false" type="slide">contact us  you may be able to use this under a “fair dealing” copyright exception.  contact the library for advice – email library@mmu.ac.uk  x x x x you can’t use this. this isn’t permitted under any copyright exceptions, and it would be high risk.  you need to obtain the permission of the rights holder.   x x x x fair dealing in certain circumstances, some works may be copied under a copyright exception where it’s considered to be “fair dealing”. fair dealing is not defined in law, and the fairness of a particular use will be judged according to its own circumstances. however, there are a few factors to consider when assessing the fairness, including:  the amount copied – avoid copying excessive amounts of a work, and be aware that in some cases the type of work may be a factor. the purpose of copying – if the purpose is for teaching a limited number of students, this may be considered fair. the damage that copying may do to the market for, or sales of, the work – where the economic impact is not significant, the use may count as fair dealing.  close [x] close [x] close [x] close [x]  embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded share it in an email share it in an email share it in an email share it in an email share it in an email share it in an email what do you want to do with it? </slidetext>
+      <slidetext slideid="5goDKmWs77G.5vWWDojxYH3" slidebank="false" type="slide">research and private study researchers and students are allowed to copy limited extracts of works for non-commercial research and private study.  this includes text, images, sound and video recordings.  the amount is limited by fair dealing and must be sufficiently acknowledged/attributed.   close [x] close [x] close [x] close [x] free to use!  you can send a single copy for yourself, a student, or a fellow researcher under the “research and private study” exception.   contact us  you may be able to use this under a “fair dealing” copyright exception.  contact the library for advice – email library@mmu.ac.uk  you can’t use this  this isn’t permitted under any copyright exceptions, and it would be high risk.  you need to obtain the permission of the rights holder. fair dealing in certain circumstances, some works may be copied under a copyright exception where it’s considered to be “fair dealing”. fair dealing is not defined in law, and the fairness of a particular use will be judged according to its own circumstances.  however, there are a few factors to consider when assessing the fairness, including:  the amount copied – avoid copying excessive amounts of a work, and be aware that in some cases the type of work may be a factor. the purpose of copying – if the purpose is for teaching a limited number of students, this may be considered fair. the damage that copying may do to the market for, or sales of, the work – where the economic impact is not significant, the use may count as fair dealing.  close [x] close [x] close [x] close [x]  embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle embed it in moodle use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer use it on a website or in an oer share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service share it on social media or via a cloud service use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded use it in a presentation or lecture that is being recorded share it in an email share it in an email share it in an email share it in an email share it in an email share it in an email what do you want to do with it? </slidetext>
+      <slidetext slideid="6Qrcd2j3gXZ.6E1fObKs3JD" slidebank="false" type="slide">help using this tool  select the start button to begin then answer the questions that follow. you can also expand the menu ☰ in the top left to search or navigate.  email library@mmu.ac.uk for further support with any copyright enquiries. start start start start start start</slidetext>
+      <slidetext slideid="6Qrcd2j3gXZ.5ZO5iQrPQ6w" slidebank="false" type="slide"> research and private study researchers and students are allowed to copy limited extracts of works for non-commercial research and private study.  this includes text, images, sound and video recordings.  the amount is limited by fair dealing and must be sufficiently acknowledged/attributed.  fair dealing in certain circumstances, some works may be copied under a copyright exception where it’s considered to be “fair dealing”.  fair dealing is not defined in law, and the fairness of a particular use will be judged according to its own circumstances.  however, there are a few factors to consider when assessing the fairness, including:  the amount copied – avoid copying excessive amounts of a work, and be aware that in some cases the type of work may be a factor. the purpose of copying – if the purpose is for teaching a limited number of students, this may be considered fair. the damage that copying may do to the market for, or sales of, the work – where the economic impact is not significant, the use may count as fair dealing.      era (educational recording agency) licence the era provides licensing schemes to member he institutions to cover the use of recorded broadcast media in teaching and learning. the era licence grants the right to copy, access and use, for non-commercial educational purposes, broadcast output of era’s members in the form of era recordings.  mmu currently has an era licence. this also allows licensed era recordings to be accessed by students and teachers online from outside the premises of their establishment.   creative commons creative commons is a non-profit organisation that provides licensing information aimed at achieving a mutual sharing and flexible approach to copyright. their easy-to-use copyright licences provide a simple, standardised way to give the public permission to share and use creative work.  you are free to use cc licensed material as long as you adhere to the terms of the type of licence that the material has been released under.  you can use the creative commons search page to find cc licensed content.     cla licence our copyright licensing agency (cla) licence covers the photocopying and scanning of most uk publications and some us and international publishers.  it allows: multiple photocopies of limited extracts from copyright protected printed books, journals and magazines digital copies of limited extracts from copyright protected printed books, journals and magazines details of excluded uk and us publishers, and included overseas countries, can be found on the cla’s website.   public domain  public domain works are those whose intellectual property rights have expired, been forfeited, or are otherwise inapplicable.  for example, creative work where the author died more than 70 years ago. when trying to determine whether something is in the public domain or not, consider the following:  the rules of your own country apply (ie. uk copyright law) a reproduction of a work has a new copyright life (eg. a digital image of an old photograph) any adaptation of a work is a new copyright work. cla licence creative commons (cc) era licence fair dealing public domain research and private study glossary of copyright terms close glossary</slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="6MHSzvTylJh.6fba2gW4pgr" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Entire music score – slide 18, you can’t use this. End.&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Extract fr music score – slide 19, wdywtdwi? You can’t use this &amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#FFFFFF" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#FFFFFF" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Music scores (including the words) are not covered by any licences. &amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#FFFFFF" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="This means that entire music scores can’t be digitised, copied or shared unless they are in the public domain.  " /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6MHSzvTylJh.5XLyOUsaYwe" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Embed in moodle – slide 50, free under FD excptn&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Share in email – slide 50, free under FD excptn&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Distribute as handout – slide 50, free under FD excptn&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Use presentation - slide 50, free under FD excptn&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Use presentation recorded - slide 50, free under FD excptn&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Use on web/oer – slide 36, can’t use / hi risk / nd to seek permisson&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Share SM/cloud - slide 36, can’t use / hi risk / nd to seek permisson&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5z8O8WR9VIn.64Udv9Reiyg" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Embed in moodle – slide 42, Free under CLA &amp;amp; FD&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Share in email – slide 42, Free under CLA &amp;amp; FD&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Distribute as handout – slide 42, Free under CLA &amp;amp; FD&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Use presentation - slide 42, Free under CLA &amp;amp; FD&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Use presentation recorded - slide 42, Free under CLA &amp;amp; FD&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Use on web/oer – slide 43, contact us, FD&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Share SM/cloud - slide 43, contact us, FD" /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="68cH7Ui3STk.6YT22KWDkPy" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Moodle - slide 40, Free under CLA &amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Email - slide 42, Free under CLA &amp;amp; FD&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Handout - slide 42, Free under CLA &amp;amp; FD&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Presentation - slide 42, Free under CLA &amp;amp; FD&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Recorded presentation - slide 42, Free under CLA &amp;amp; FD&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Website/oer – slide 43 / FD poss&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Share SM/cloud - slide 43 / FD poss&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5hMv0lMb9w6.6WmnHW3Nr5N" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Embed moodle – slide 43, contact/FD&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Share email – slide 41, single, R&amp;amp;PS&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Distr handout – slide 43, FD excptn&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Use pres/lect – slide 50, FD exc&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Use recorded pres/lect – slide 43, maybe under FD&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Website/oer – slide 36, can’t use, hi risk&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Share SM/via cloud - slide 36, can’t use, hi risk" /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5hMv0lMb9w6.5zkl3mSPNEd" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Distr handout - slide 43, FD excptn = SAME&amp;#xA;"&gt;
+        &lt;Style /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Embed moodle - slide 42, Free under CLA &amp;amp; FD&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Share email - slide 42, Free under CLA &amp;amp; FD&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Use pres/lect - slide 42, Free under CLA &amp;amp; FD &amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Use recorded pres/lect - slide 42, Free under CLA &amp;amp; FD&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Website/oer - slide 36, can’t use, hi risk = SAME&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Share SM/via cloud - slide 43, FD excptn&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6fSDxHnTXhs.6ktN8MySsHB" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Bob prog – slide 25&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Extract tv/radio – slide 26&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Entire broadcast – slide 27&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="This slide is not linked up &amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Kate note&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6fSDxHnTXhs.6oDj8W5KeGo" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Embed moodle – slide 51, FD + ERA &amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Use pres/lect - slide 51, FD + ERA &amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Use recorded pres/lect- slide 51, FD + ERA&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Website/oer - slide 36, can’t use, hi risk&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Share SM/via cloud - - slide 43, FD excptn&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6fSDxHnTXhs.5a8DN3RggN2" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="8">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="This slide was duplicated and not yet corercted for BoB 13:23 31/1 KW&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Embed moodle – slide 37, free ERA &amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Use pres/lect - slide 37, free ERA &amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Use recorded pres/lect - slide 37, free ERA &amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Website/oer - slide 36, can’t use, hi risk&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Share SM/via cloud - slide 36, can’t use, hi risk&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="68bo0efzCxJ.6CUNg9wQImp" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="28 home&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Youtube / Vimeo – slide 29, wdywtdwi&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Entire film – slide 31, wdywtdwi&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Film extract - slide 32, wdywtdwi" /&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="68bo0efzCxJ.6jJ2Pidgef7" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="10">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Slide 32&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Use pres/lect – slide 50, free to use under FD exptn&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Use recorded pres/lect – slide 43, contact us, poss FD excptn&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Embed moodle– slide 43, contact us, poss FD excptn&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Share email – slide 54, can’t use but low risk&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Website/oer– slide 36, can’t use, high risk, need permission&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Share SM/via cloud– slide 36, can’t use, high risk, need permission&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="68bo0efzCxJ.6l0kiKbDzgx" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="11">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Use pres/lect – slide 43, contact us, poss FD excptn&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Use recorded pres/lect – slide 36, can’t use, high risk, need permission&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Embed moodle– slide 36, can’t use, high risk, need permission&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Share email– slide 36, can’t use, high risk, need permission&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Website/oer– slide 36, can’t use, high risk, need permission&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Share SM/via cloud– slide 36, can’t use, high risk, need permission&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5goDKmWs77G.5VU8Pd85Dke" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="12">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Use pres/lect– slide 43, contact us, poss FD excptn&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Use recorded pres/lect– slide 43, contact us, poss FD excptn&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Embed moodle– slide 43, contact us, poss FD excptn&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Share email– slide 36, can’t use, high risk, need permission&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Website/oer– slide 36, can’t use, high risk, need permission&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Share SM/via cloud– slide 36, can’t use, high risk, need permission&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5goDKmWs77G.5vWWDojxYH3" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="13">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="new&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Use pres/lect– slide 43, SAME&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Use recorded pres/lect– slide 43 SAM&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Embed moodle– slide 43, SAME&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Share email – slide 41, free, single copy, R&amp;amp;D excptn&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Website/oer– slide 36, can’t use, high risk, need permission SAME&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Share SM/via cloud– slide 36, can’t use, high risk, need permission SAME&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;" /&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
+  <glossary_data />
+</bwFrame>
